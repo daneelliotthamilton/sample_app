@@ -8,6 +8,11 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
+group :test do
+  gem 'minitest'
+  gem 'selenium-webdriver'
+  gem 'capybara'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
