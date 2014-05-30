@@ -20,6 +20,7 @@ group :test do
   gem 'minitest'
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails', '4.4.1'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
