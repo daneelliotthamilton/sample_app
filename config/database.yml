@@ -2,18 +2,18 @@
 development: &defaults
  adapter: postgresql
  encoding: unicode
- database: [sample_app_development]
+ database: sample_app_development
  host: localhost
  username: daneelliott-hamilton
  password:
 
 test:
  <<: *defaults
- database: [sample_app_test]
+ database: sample_app_test
 
 production:
   <<: *defaults
-  database: [sample_app_production]
+  database: sample_app_production
 
 
 
